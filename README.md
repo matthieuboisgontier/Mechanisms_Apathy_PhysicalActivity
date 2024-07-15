@@ -1,1 +1,1 @@
-# Mechanisms_Apathy_PhysicalActivity
+# Apathy, Intentions, and Affective Attitudes in Physical Activity Behavior
