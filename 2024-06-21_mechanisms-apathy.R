@@ -762,7 +762,7 @@ data_ap_correcct <- subset(data2, stimulus == "ap" & correct == "1")
 
 
 ### STATISTICAL MODELS
-# Mediation analysis: Mediating effect of attitude on the association between apathy and intention to be active in Osteo Arthritis 
+# Mediation analysis: Mediating effect of attitude on the association between apathy and intention to be active
 mediation.1 <- lm (intention ~  lars_sum + dass_sum_c + biasapcorr_c + biassedcorr_c + age_c + sex01 + bmi_c + sum_chronic, data=DataAggreg, na.action=na.omit) 
 summary(mediation.1)
 confint(mediation.1)
@@ -779,7 +779,7 @@ confint(mediation.3)
 plot(allEffects(mediation.3), select = 1)
 
 
-# Mediation analysis: Mediating effect of intention on the association between apathy and physical activity in Osteo Arthritis 
+# Mediation analysis: Mediating effect of intention on the association between apathy and physical activity
 mediation.4 <- lm (mvpa ~ lars_sum_c + dass_sum_c + biasapcorr_c + biassedcorr_c + age_c + sex01 + bmi_c + sum_chronic, data=DataAggreg, na.action=na.omit) 
 summary(mediation.4)
 confint(mediation.4)
@@ -797,7 +797,7 @@ plot(allEffects(mediation.6), select = 1)
 
 
 
-# Linear mixed effects model testing the effect of kinesiophobia on corrected Reaction Time as a function of stimulus (physical activity, sedentary behavior)
+# Linear mixed effects model testing the effect of apathy on corrected Reaction Time as a function of stimulus (physical activity, sedentary behavior)
 # and action (approach, avoid)
 
 lmm1.1 <- lmer(relativelatencygeomdirection  ~ 1 + approach*stimulus_ap0_sed1*lars_sum + dass_sum_c + attitude_c + mvpa_c + age_c + sex01 + bmi_c + computer01 + sum_chronic + (1|id) + (1|pictograms), 
