@@ -6,3 +6,6 @@ This repository contains an `R` script "2024-06-21_mechanisms-apathy.R" to condu
 
 ## Dataset
 The dataset used by the R script is provided in "2024-05-12_data-apathy.2.csv.zip".
+
+## Video
+The video illustrates the approach-avoidance task
