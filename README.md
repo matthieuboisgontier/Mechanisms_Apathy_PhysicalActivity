@@ -8,4 +8,4 @@ This repository contains an `R` script "2024-06-21_mechanisms-apathy.R" to condu
 The dataset used by the R script is provided in "2024-05-12_data-apathy.2.csv.zip".
 
 ## Video
-The video illustrates the approach-avoidance task
+The video Approach-avidance_task.mp4 illustrates the approach-avoidance task
