@@ -1,4 +1,4 @@
-# Apathy, Motivation, and Physical Activity Behavior
+# Apathy, Motivation, and Physical Activity Behavior: Material, Data and R Code 
 
 
 ## R script
