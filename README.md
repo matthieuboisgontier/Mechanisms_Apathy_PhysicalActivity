@@ -1,4 +1,4 @@
-# Apathy, Intentions, and Affective Attitudes in Physical Activity Behavior
+# Apathy, Motivation, and Physical Activity Behavior
 
 
 ## R script
